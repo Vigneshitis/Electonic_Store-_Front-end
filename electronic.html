@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronics Store</title>
+  <link rel="stylesheet" href="vignesh.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Electronics Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Select a Category</h2>
+    <div id="categories">
+      <div class="category" data-category="laptops">Laptops</div>
+      <div class="category" data-category="smartphones">Smartphones</div>
+      <div class="category" data-category="watches">Watches</div>
+      <div class="category" data-category="earphones">Earphones</div>
+      <div class="category" data-category="Television">Television</div>
+      <div class="category" data-category="tablets">Tablets</div>
+      <div class="category" data-category="gaming">Gaming Consoles</div>
+      <div class="category" data-category="cameras">Cameras</div>
+      <div class="category" data-category="headphones">Headphones</div>
+    </div>
+	 <marquee behavior="scroll" direction="right" scrollamount="12">
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/dab60938212491.5968c68fa9113.gif" alt="Check ur Network" width="400" height="200">
+</marquee>
+
+
+  </section>
+
+ 
+     
+  <section id="category-details" style="display: none;">
+<button id="back-button" style="
+  background-color: #007bff;
+  color: #fff; 
+  border: none;
+  padding: 10px 20px; 
+  font-size: 16px;  
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, transform 0.2s ease;  
+">Back to Categories</button>
+
+    <h2 id="category-title"></h2>
+    <div id="product-controls">
+      <button id="prev-button">←</button>
+      <div id="product-list"></div>
+      <button id="next-button">→</button>
+    </div>
+   
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Electronics Store. All rights reserved.</p>
+  </footer>
+
+  <script src="vignesh.js"></script>
+</body>
+</html>
